@@ -1,0 +1,314 @@
+
+.App {
+  min-height: fit-content;
+  background-image: linear-gradient(to right, rgb(206, 7, 0), rgb(0, 105, 224));
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.AppScale {
+  position: relative;
+  top: 00px;
+  left: -170px;
+  z-index: 100;
+}
+
+.Rooster {
+  height: 350px;
+  width: 210px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Roostertimes {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.Times{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 0px;
+  background-color: white;
+  width: 50px;
+  height: 350px;
+}
+
+.Volledigerooster {
+  position: relative;
+  background: white;
+  left: 10px;
+  top: -10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Tabladen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 70px;
+  width: 1519px;
+  position: relative;
+  top: -10px;
+  left: 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.Image {
+  position: relative;
+  height: 600px;
+  width: 800px;
+  border: 2px solid black;
+  border-radius: 10px;
+  top: 0px;
+  left: 70px;
+}
+
+.Button1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -600px;
+  left: 880px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+  color: white;
+}
+
+.Button2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -540px;
+  left: 830px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+  color: white;
+}
+
+.Button3 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -480px;
+  left: 780px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+  color: white;
+}
+
+.TabladenName {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+  background: none;
+  position: relative;
+  left: -350px;
+  top: -5px;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.Refresh {
+  height: 45px;
+  width: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background: none;
+  position: relative;
+  left: 80px;
+  top: 60px;
+  font-family: fantasy;
+  font-size: 30px;
+  background: black;
+  z-index: 100;
+  border-radius: 20px;
+}
+
+.Refresh .icon {
+  transition: all 0.4s ease-in-out;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 3px;
+}
+.Refresh:hover .icon{
+  transform: rotate(360deg) scale(1.2);
+}
+
+.LogoButton {
+  height: 55px;
+  width: 145px;
+  position: relative;
+  top: -1402px;
+  left: 1355px;
+}
+
+.Logo {
+  height: 55px;
+  width: 145px;
+  position: relative;
+  top: -4px;
+  right: 2px;
+}
+
+.card-container {
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in-out;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  border: 2px solid black;
+  position: relative;
+  top: -620px;
+  left: 1050px;
+}
+
+.Helerooster {
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+.arrow {
+  border: solid #0e153a;
+  border-width: 0px 3px 3px 0px;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arrowposition1{
+  position: relative;
+  top: -25px;
+  left: 70px;
+}
+
+
+.stripe {
+  border: 2px solid #0e153a;
+  background: #0e153a;
+  border-radius: 0px;
+  height: 2px;
+  width: 50px;
+  display: inline-block;
+  transform: rotate(0deg);
+  position: relative;
+  top: -3px;
+}
+
+.arrowposition2{
+  position: relative;
+  top: -47px;
+  left: -70px;
+}
+
+.Volgende{
+  border: 2px solid white;
+  background: white;
+  position: relative;
+  left: 1120px;
+  top: -770px;
+  height: 60px;
+  width: 100px;
+  color: black;
+  font-weight: bolder;
+}
+
+.Vorige{
+  border: 2px solid white;
+  background: white;
+  position: relative;
+  left: 1080px;
+  top: -770px;
+  height: 60px;
+  width: 100px;
+  color: black;
+  font-weight: bolder;
+}
+
+.RoosterCard {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px -10px;
+    transition: 0.5s;
+    animation: ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+    top: -600px;
+    left: 975px;
+}
+  
+.KlokPos {
+  display: flex;
+  position: relative;
+  top: -1200px;
+  left: 90px;
+  width: 100px;
+}
+
+.badButton {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+  background: white;
+  border: 2px solid black;
+  background-image: linear-gradient(to right, rgb(206, 7, 0), rgb(0, 105, 224));
+  position: relative;
+  top: 30px;
+  left: 165px;
+}
+
+.SignOut {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+  background: none;
+  position: relative;
+  left: -0px;
+  top: -10px;
+  font-family: fantasy;
+  font-size: 30px;
+  z-index: 100px;
+}

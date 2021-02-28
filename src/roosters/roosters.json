@@ -1,0 +1,28 @@
+
+[
+    {
+        "name": "3g1M",
+        "rooster":[ "n.v.t.", "n.v.t.", "Frans", "Duits", "Nederlands", "Biologie", "Wiskunde", "Gym" ],
+        "lokalen":[ "n.v.t.", "n.v.t.", "0.17", "2.02", "2.04", "1.26", "2.09", "Gym"]
+    },
+    {
+        "name": "3g1D",
+        "rooster": [ "Natuurkunde", "Muziek", "Scheikunde", "Biologie", "Duits", "Engels", "Wetenschaps-orientatie", "Wetenschaps-orientatie"],
+        "lokalen": [ "1.24", "1.01", "1.23", "1.27", "2.02", "2.05", "0.04", "0.04"]
+    },
+    {
+        "name": "3g1W",
+        "rooster": [ "Aardrijkskunde", "Wiskunde", "Geschiedenis", "Levensbeschouwing", "Scheikunde", "Economie", "Natuurkunde", "n.v.t." ],
+        "lokalen": [ "2.05", "2.09", "2.13", "2.12", "1.23", "2.16", "1.18", "n.v.t." ]
+    },
+    {
+        "name": "3g1Do",
+        "rooster": [ "Begeleiding", "Frans", "Aardrijkskunde", "Levensbeschouwing", "Engels", "Gym", "Nederlands", "n.v.t." ],
+        "lokalen": [ "0.04", "0.07", "2.04", "2.12", "0.08", "Gym", "2.16", "n.v.t." ]
+    },
+    {
+        "name": "3g1V",
+        "rooster": [ "n.v.t.", "n.v.t.", "n.v.t.", "Mentoruur", "Economie", "Geschiedenis", "Wiskunde", "n.v.t." ],
+        "lokalen": [ "n.v.t.", "n.v.t.", "n.v.t.", "2.09", "2.16", "2.14", "2.09", "n.v.t." ]
+    }
+]

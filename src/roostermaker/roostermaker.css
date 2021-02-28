@@ -1,0 +1,15 @@
+.Cross {
+    border-radius: 0px;
+    border: 2px solid black;
+    width: 60px;
+    height: 15px;
+    background-color: white;
+    font-size: 15px;
+    position: relative;
+    top: -1220px;
+    left: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
