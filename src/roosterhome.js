@@ -27,7 +27,6 @@ function RoosterHome() {
         <Over />
         <Meer />
         <button className="LogoButton" onClick={Tcc}><img src={Logo} className="Logo" alt=""/></button>
-        <RoosterMakerTools />
       </div>
     </div>
     
