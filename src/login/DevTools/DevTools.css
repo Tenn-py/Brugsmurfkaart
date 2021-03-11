@@ -71,3 +71,22 @@
     top: 10px;
     left: 100px;
 }
+
+.Days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CreateDay {
+    display: flex;
+    flex-direction: row;
+}
+
+.Total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

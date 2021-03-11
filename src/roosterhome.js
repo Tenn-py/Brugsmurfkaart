@@ -7,8 +7,6 @@ import Klok from './klok';
 import Over from './over page/over'
 import Logo from './plattegronden/download.png'
 import Meer from './meer page/meer'
-import Login from './login/login'
-import RoosterMakerTools from './roostermaker/roostermakertools'
 
 function RoosterHome() {
 

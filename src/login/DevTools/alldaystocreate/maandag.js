@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
-import './rooster.css'
+import './creater.css'
+import newMaandag from './newmaandag'
 
-export default function Rooster() {
+export default function Maandag() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [vid1, setvid1] = useState([]);
@@ -10,7 +11,7 @@ export default function Rooster() {
   // this useEffect will run once
   // similar to componentDidMount()
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/rooster/2")
+    fetch("http://127.0.0.1:5000/rooster/0")
       .then(res => res.json())
       .then(
         (result) => {
@@ -35,18 +36,19 @@ export default function Rooster() {
   } else {
     console.log(vid1)
     return (
-      <div className="card-container">
-        <h1 className="Day">{vid1.name}</h1>
-        <h4 className="RoosterTextff">{vid1.eerste}</h4>
-        <h4 className="RoosterTextff">{vid1.tweede}</h4>
-        <h4 className="RoosterTextff">{vid1.derde}</h4>
-        <h4 className="RoosterTextff">{vid1.vierde}</h4>
-        <h4 className="RoosterTextff">{vid1.vijfde}</h4>
-        <h4 className="RoosterTextff">{vid1.zesde}</h4>
-        <h4 className="RoosterTextff">{vid1.zevende}</h4>
-        <h4 className="RoosterTextff">{vid1.achtste}</h4>
+      <div className="OldRooster">
+        <div className="Day">
+            <h4 className="Vak">{vid1.eerste}</h4>
+            <h4 className="Vak">{vid1.tweede}</h4>
+            <h4 className="Vak">{vid1.derde}</h4>
+            <h4 className="Vak">{vid1.vierde}</h4>
+            <h4 className="Vak">{vid1.vijfde}</h4>
+            <h4 className="Vak">{vid1.zesde}</h4>
+            <h4 className="Vak">{vid1.zevende}</h4>
+            <h4 className="Vak">{vid1.achtste}</h4>
+        </div>
       </div>
+        
     );
   }
-  
 }

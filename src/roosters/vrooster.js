@@ -5,7 +5,6 @@ export default function Rooster() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [vid1, setvid1] = useState([]);
-  const [PerUur, setPerUur] = useState([])
 
   // Note: the empty deps array [] means
   // this useEffect will run once
